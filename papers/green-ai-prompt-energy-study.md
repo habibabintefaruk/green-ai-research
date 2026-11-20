@@ -38,3 +38,27 @@ I also understood the importance of balancing AI performance with computational 
 ## 7. Keywords
 
 Green AI, Large Language Models, Energy Consumption, Prompt Engineering, Inference Efficiency
+
+
+## 8. Quantitative Research Findings
+
+The study conducted 21,600 inferences across three open-weight language models.
+
+Key findings:
+
+- A strong correlation (r ≥ 0.998) was observed between output token count and energy consumption.
+- Explicit short-answer instructions performed better than verb swapping in 7 out of 9 model-task settings.
+- Reducing output length can help improve energy efficiency.
+- Verb swapping alone does not guarantee energy savings.
+
+## 9. Research Reference
+
+Farabi, A., Khandaker, I., Minhaz, M. A. A., Meem, Z. Z., Shanto, I. K., & Mahmud, S. (2026).
+
+GreenSwap: Verb Choice or Output Length? A Controlled Decomposition of Prompt-Level Energy Savings in LLM Inference.
+
+Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing, pages 53711–53724.
+
+Publisher: Association for Computational Linguistics.
+
+Original Paper: https://aclanthology.org/2026.emnlp-main.2366/
